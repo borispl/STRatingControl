@@ -1,6 +1,6 @@
 {
   "name": "STRatingControl",
-  "version": "1.1.0",
+  "version": "1.1.3",
   "summary": "STRatingControl is a UI control that represent the star rating control.",
   "description": "STRatingControl is a UI control that represent the star rating control. STRatingControl allows you to select a rating starting from 0 to any number of stars you want. You can use default star image or specify your custom images.",
   "homepage": "https://github.com/shuhrat10/STRatingControl",
@@ -10,16 +10,13 @@
   },
   "source": {
     "git": "https://github.com/shuhrat10/STRatingControl.git",
-    "tag": "1.1.0"
+    "tag": "1.1.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
+  "swift_versions": "5.0",
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "STRatingControl": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "swift_version": "5.0"
 }

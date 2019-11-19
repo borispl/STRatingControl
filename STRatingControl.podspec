@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "STRatingControl"
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "STRatingControl is a UI control that represent the star rating control."
 
 # This description is used to generate tags and improve search results.
@@ -26,8 +26,9 @@ Pod::Spec.new do |s|
   s.author           = { "Shukhrat Tursunov" => "shuhrat10@gmail.com" }
   s.source           = { :git => "https://github.com/shuhrat10/STRatingControl.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
+  s.swift_version = '5.0'
 
   s.source_files = 'Pod/Classes/**/*'
 end
